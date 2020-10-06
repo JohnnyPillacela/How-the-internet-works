@@ -4,8 +4,25 @@ footer{
 
 .bodyContent{
     padding: 30px;
+    text-indent: 40px;
 }
 
 img {
+    float: left;
+    margin: 10px;
+}
+
+.par_start {
+
+    clear: both;
+}
+
+.img_descrip {
     margin: 20px;
+    float: left;
+    text-indent: 40px;
+}
+.descrip{
+    margin: 10px;
+    padding: 20px;
 }
