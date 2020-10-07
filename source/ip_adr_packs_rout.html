@@ -48,37 +48,61 @@
             <h1>IP Addresses, Packets and Routing</h1>
             <div class="bodyContent">
                 <p class="par_start">
-                    Domain Names and ICANN
-                    Domain Names are readable IP addresses for humans. For example, Metaphorically, it is very similar
-                    to how you would scroll to a contact in your cell phone rather than manually dialing the person by
-                    entering their full phone number; the phone number would be an IP address and the saved contact would
-                    be a domain name.” says the website Domain.com. Since people can’t be bothered to remember someone’s
-                    whole phone number, they find it by contact name. Similarly, since people cannot be bothered to
-                    remember a website’s IP address, they just remember the domain name. In a more literal way, when
-                    someone try to access a website by typing a website’s domain name, the domain name gets sent by your
-                    computer to a Domain Name System Server where it tries to pin point the location of that domain and
-                    returns an IP address. Once the IP address is received, then your computer knows where to go to access
-                    the servers of wherever you were trying to connect.
+                    “The Internet is a network of networks. It links billions of devices together all around the globe”
+                    says one of the co-founders of the Internet, Vincent. When we connect to our Wi-Fi, our Internet
+                    Service provider then connects us to the rest of the computers on the network that are interconnected.
+                    An IP Address is a unique number assigned to each device on the network. It is what allows other
+                    devices connected on the network to send information to your device. However, all devices on the
+                    network have to follow the same protocol, which in this case is the Internet Protocol. Hence, “a
+                    computers address is called an IP address” says Vincent. If a computer connected to the internet,
+                    visits a website, then it is just sending a message to the other computer with its IP address attached
+                    so the other computer can know where to send the information back to. An IP address can be related to
+                    someone’s physical address in the sense that the IP address is like someone’s house address. In order
+                    for a mail carrier to deliver a package or letter correctly everyone must follow the same protocol, or
+                    in other terms the same style for writing addresses. IP addresses are written in such a way that there
+                    are 4 numbers each separated by a period. Each of these numbers represent something different and hold 8
+                    bits of information each. This means that an IP address holds 32 bits of information. An example of an IP
+                    address would be “123.456.78.90”. The first set of numbers identify the country of the device. The second
+                    set of numbers identify the region of the device. The third set of numbers identify the subnetwork and finally
+                    the last set of numbers identify the specific device. However, most numbers these days don’t specify countries
+                    they just specify networks and subnetworks as a whole, but are still put in 4 different sets. Since there are
+                    4 different sets of numbers, this is called IPv4 and was designed in 1973 and used everywhere by the 1980’s.
+                    IPv4 also provides almost 4 billion unique IP addresses to devices connected on the internet.
+                </p>
+                <p>
+                    There is a big problem though. At some point there will be need for more unique IP address but there won’t
+                    be enough unique addresses remaining. IPv6 is currently being worked on which uses 128 bits per address and
+                    provides 340 undecillion unique IP addresses.
                 </p>
                 <div class="img_descrip">
-                    <img src="../images/facebook.jpg" style="height: 200px; width: 300px">
+                    <img src="../images/address.jpg" style="height: 200px; width: 300px">
 
                     <div class="descrip">
                         <p>
-                            In order to get on Facebook's website people just write "www.Facebook.com" the Domain Name. However, under
-                            the hood, the Domain Name System is working on finding the corresponding IP Address.
+                            In order for poeple to deliver mail or a package to someone they must know they real physical address.
+                            If not, then your mail will never reach its destination. Similarly, a browser trying to access a website
+                            will need to connect using the website's IP address.
                         </p>
                     </div>
                 </div>
                 <p class="par_start">
-                    But, what if there are two same domain names or two same IP Addresses? How would my computer know
-                    where to go? Well there would never be any duplicates. This is thanks to ICANN, which is a non-profit
-                    organization that coordinates the Internet’s naming system. According to ICANN, “ICANN doesn’t control
-                    content on the Internet. It cannot stop spam and it doesn’t deal with access to the Internet.” They
-                    just control the naming system. They were formed in 1998 and they dedicate themselves to keeping the
-                    Internet secure, stable and interoperable. Once again, ICANN helps coordinate the supply of IP addresses
-                    and they do not supply IP Addresses. They just make sure IP addresses aren’t duplicated. Also it is in
-                    their name, Internet Corporation for Assigned Names and Numbers.
+                    The way information gets sent over the Internet isn’t as straightforward as sending a request to a
+                    server and getting information back. As information gets sent over the internet to its destination
+                    it can take various paths, always trying to find the faster route. Also the information that gets
+                    sent over the internet travels as a packet of information. These packets hold pieces of information
+                    from the original data or information that is being sent over the Internet. Once all these packets
+                    arrive at the destination, they merge together to form the original data.
+                </p>
+                <p>
+                    Routers keep track of all the routes for sending packets over the internet. It also chooses the cheapest
+                    path for each packet to travel on. In the case where some packets get lost or a router stops working,
+                    then there are other paths which the packets can take to reach the destination.
+                </p>
+                <p>
+                    To make sure all the packets are delivered correctly, they follow the Transmission Control Protocol,
+                    or TCP. TCP is in charge of making sure all packets have been delivered and if it notices that some
+                    packets are missing then the original sender will resend packets. The more routers that are added to
+                    the network the better the network becomes.
                 </p>
 
 
